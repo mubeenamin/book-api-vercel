@@ -15,7 +15,7 @@ export async function GET() {
 export async function POST(request: NextRequest) {
   const req = await request.json();
   const body: NewTodo = {
-    id: req.id,
+    
     title: req.title,
     description: req.description,
   };

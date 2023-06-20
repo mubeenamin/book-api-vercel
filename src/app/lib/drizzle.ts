@@ -5,7 +5,7 @@ import {
   varchar,
   timestamp,
   boolean,
-} from "drizzle-orm/pg-core";
+} from "drizzle-orm/pg-core"; 
 import { drizzle } from "drizzle-orm/vercel-postgres";
 import { InferModel } from "drizzle-orm";
 import { sql } from "@vercel/postgres";
